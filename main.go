@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	binarytree "example.com/mastering-go/binary-tree"
+	hashtable "example.com/mastering-go/hash-table"
 )
 
 func main() {
@@ -19,5 +19,6 @@ func main() {
 	// SliceExamples()
 	// CalculatePi()
 	// store.UseStore()
-	binarytree.BinaryTreeUsage()
+	// binarytree.BinaryTreeUsage()
+	hashtable.HashTableExample()
 }
