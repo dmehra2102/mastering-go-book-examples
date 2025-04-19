@@ -1,6 +1,10 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+	binarytree "example.com/mastering-go/binary-tree"
+)
 
 func main() {
 	var r byte = 'A'                         // ASCII character
@@ -15,4 +19,5 @@ func main() {
 	// SliceExamples()
 	// CalculatePi()
 	// store.UseStore()
+	binarytree.BinaryTreeUsage()
 }
