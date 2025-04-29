@@ -4,6 +4,7 @@ import (
 	"fmt"
 
 	hashtable "example.com/mastering-go/hash-table"
+	function "example.com/mastering-go/packages"
 )
 
 func main() {
@@ -21,4 +22,6 @@ func main() {
 	// store.UseStore()
 	// binarytree.BinaryTreeUsage()
 	hashtable.HashTableExample()
+
+	function.FunctionMain()
 }
