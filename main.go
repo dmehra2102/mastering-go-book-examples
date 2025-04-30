@@ -2,9 +2,6 @@ package main
 
 import (
 	"fmt"
-
-	hashtable "example.com/mastering-go/hash-table"
-	function "example.com/mastering-go/packages"
 )
 
 func main() {
@@ -21,7 +18,8 @@ func main() {
 	// CalculatePi()
 	// store.UseStore()
 	// binarytree.BinaryTreeUsage()
-	hashtable.HashTableExample()
+	// hashtable.HashTableExample()
 
-	function.FunctionMain()
+	// function.FunctionMain()
+	SyscallUsage()
 }
